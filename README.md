@@ -1,4 +1,4 @@
-# docker-boost [![Build Status](https://travis-ci.org/zouzias/docker-boost.svg?branch=master)](https://travis-ci.org/zouzias/docker-boost)
+# docker-boost [![Build Status](https://travis-ci.org/transia/docker-boost.svg?branch=master)](https://travis-ci.org/transia/docker-boost)
 
 Dockerfile that setups Ubuntu bionic with Boost libraries (header only). The C++ Boost libraries are installed under `/usr/include/boost/`.
 
@@ -23,7 +23,7 @@ To run the above built image
 To use the docker image, run
 
 ```bash
-docker run -it zouzias/boost:1.67.0 bash
+docker run -it transia/boost:1.67.0 bash
 ```
 
 ### Boost versions
